@@ -33,7 +33,7 @@ onmessage = function(e) {
     }*/
 
     var xhr = new XMLHttpRequest();
-    xhr.responseType = 'blob';
+    //xhr.responseType = 'blob';
     xhr.onload = function(response) {
       console.log(response);
       let {status} = response.target || response.currentTarget || response.srcElement;
